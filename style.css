@@ -1,0 +1,283 @@
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+/*-----------------------------   ***  PINK HEADER   ***  -------------------------------------*/
+
+header {
+    margin: auto;
+    background-image: url(img/header-foto.jpg);
+    background-size: 100%;
+   }
+
+header {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#wrapper {  /*transparent with color: img in header in css, background-color (rgba!) with opacity in an ID*/
+    padding-bottom: 7%;
+    background-color: rgba(219, 42, 101, 0.85);
+    color: #ffffff;
+}
+.home > .links {
+    list-style: none;
+    }
+
+.home > .row > .col-12 > .links nav {
+    margin-left: 60%;
+    }
+
+.home > .row > .col-12 > .links li {
+    display: inline-block;
+        }
+
+.home > .row > .col-12 > .links li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 9px;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+/*--------------------------------------  SLOGAN:  H1 & H3   ------------------------------------------*/
+
+main {
+    margin: auto;
+}
+
+.home > .row > .col-12 > .links h1 {
+    font-family: 'Noto Serif SC', serif;
+    color: #ffffff;
+    font-size: 100%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home > .row > .col-12 > .links h3 {
+    font-family: 'Noto Serif SC', serif;
+    color: #ffffff;
+    font-size: 60%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+/*------------------------------   ***   MEET OUR TEAM   ***    -----------------------------------------*/
+
+.team  {
+    font-family: 'Noto Serif SC', serif;
+    color: #080808d3;
+    background-color: #ffffff;
+    font-size: 60%;
+    text-align: center;
+}
+
+.team > .col-4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+/*--------------------   HEADLINE & H3   -------------------------------*/
+
+.team > .row h3 {
+    color: #000000;
+    font-size: 150%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.team > .row h4 {
+    color: #000000;
+    font-size: 90%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/*-----------------------------   TEAM INFO & FOTOS   -----------------------------*/
+
+.team > .row > .col-4 > .meet-team img {
+  float: above;
+  width: 70%;
+  height: 70%;
+  /*text-align: center;*/
+  border-radius: 60%;
+  
+}
+
+.meet-team {
+    text-align: center;
+}
+
+.team > .row >.col-4 {
+    padding: 0px 10px 0px 10px;
+}
+
+/*--------------------------  ***  SECTION PROJECT FOTOS  ***  ---------------------------------*/
+
+
+.projects {
+    background-color: #eeebeb;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projects > .row > col-3 {
+    padding: 0% 3% 0% 3% 0%;
+}
+
+/*-------------------------------------  FOTOS -------------------------*/
+
+.projects > .row > .col-3 {
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+  }
+
+.projects > .row > .col-3 > .project-fotos img {
+    width: 100%;
+    height: auto;
+}
+
+/*---------------------------------   INSTAGRAM BUTTON   ---------------------*/
+
+.projects > .row > .col-12 > .instagram {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects > .row > .col-12 > .instagram > .button {
+    
+    background-color: #ffffff;
+    border-style: outset;
+    border-width: 0px 2px 2px 0px;
+    color: #868383;
+    padding: 7px;
+    text-align: center;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+/*.projects > .row  h4 {
+    margin-top: 100px;
+    text-align: center;
+    color: #918d8daf;
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+/*---------------------------  *** SECTION CONTACT  ***  ------------------------------------*/
+
+.contact {
+    margin: auto;
+    background-color: rgba(219, 42, 101, 0.918);
+    padding: 5% 0% 5% 0%;
+    color: #ffffff;
+}
+
+/*--------------    Contact Us  --------------------*/
+
+.contact > .row h3 {
+    text-align: center;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+}
+
+.contact > .row > .col-6 > .contact-us {
+    float: right;
+    color: #5f5e5eaf;
+}
+
+.contact > .row > .col-6 input {
+width: 100%;
+}
+
+/*.contact > .row > .col-6 > .message textarea {
+    width: 65%;
+}*/
+
+/*.contact > .row > .col-6 > .contact-us > .submission input [type=submit]*/
+.send {
+    background-color: #333131;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*---------    GOOGLE MAP     ---------------*/
+
+.contact > .row > .col-6 > .map {
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.contact > .row > .col-6 > .map p {
+    font-size: 85%;
+    text-align: center;
+    
+}
+
+/*----------------   ***  FOOTER   ***   --------------------------*/
+
+.footer-links {
+    background-color: #333131;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 8px;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer-links > bottom-links {
+    list-style: none;
+   }
+
+.footer-links > .row > .col-12 > .bottom-links nav {
+    text-align: center;
+}
+
+.footer-links > .row > .col-12 > .bottom-links li {
+    display: inline-block;
+}
+
+.footer-links > .row > .col-12 > .bottom-links li a {
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+
+/*----------------------- SOCIAL MEDIA ICONS -------------------------------*/
+/*table {
+    width: 15%;
+    text-align: center;
+    }*/
+
+.row > .col-3  {
+    width: 15%;
+    text-align: center;
+}
+.social-footer {
+    padding-left: 45%;
+    list-style: none;
+}
+
+.social-footer li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 100%;
+    color: #ffffff;
+    padding: 0% 3% 0% 3%;
+}
+
+/*footer p {
+    text-align: center;
+    color: #868383;
+    margin: 0% 45% 0% 45%;
+}*/
